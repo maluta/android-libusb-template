@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dip" >
+
+        <ToggleButton
+            android:id="@+id/toggleButton1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/relay_1"
+            android:textOff="@string/relay_1"
+            android:textOn="@string/relay_1"
+            android:onClick="onRelay1Click" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/relay_2"
+            android:textOff="@string/relay_2"
+            android:textOn="@string/relay_2"
+            android:onClick="onRelay2Click" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton3"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/relay_3"
+            android:textOff="@string/relay_3"
+            android:textOn="@string/relay_3"
+            android:onClick="onRelay3Click" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton4"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/relay_4"
+            android:textOff="@string/relay_4"
+            android:textOn="@string/relay_4"
+                        android:onClick="onRelay4Click" />
+    </LinearLayout>
+ -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+            <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="libubsproject"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+    </LinearLayout>
+
+
+
+</LinearLayout>
