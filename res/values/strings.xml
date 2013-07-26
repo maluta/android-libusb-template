@@ -4,6 +4,7 @@
     <string name="app_name">libUSB Project</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">Listed devices</string>
-    
+    <string name="usb">Listed USB devices</string>
+    <string name="title_activity_main">libUSB demo</string>
+
 </resources>
