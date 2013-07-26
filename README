@@ -1,1 +1,10 @@
-android app that have libusb template
+Android APK sample with libUSB integrated.
+
+This program lists 'vendor' and 'product' IDs from USB interface
+
+To build JNI:
+$ANDROID_NDK_PATH/dk-build
+
+Import your file to Eclipse to run.
+
+This was tested on Android 2.3.x
