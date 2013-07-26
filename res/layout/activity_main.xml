@@ -23,7 +23,8 @@
             android:layout_height="0dip"
             android:layout_weight="0.43"
             android:ems="10"
-            android:inputType="textMultiLine" >
+            android:gravity="top"
+            android:inputType="none" >
 
             <requestFocus />
         </EditText>

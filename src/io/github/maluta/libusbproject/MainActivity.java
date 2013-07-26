@@ -2,11 +2,8 @@ package io.github.maluta.libusbproject;
 
 import android.os.Bundle;
 import android.app.Activity;
-import android.util.Log;
 import android.view.Menu;
-import android.view.View;
 import android.widget.EditText;
-import android.widget.ToggleButton;
 import io.github.maluta.libusbproject.R;
 
 public class MainActivity extends Activity {
@@ -19,18 +16,17 @@ public class MainActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
 		usb_devices = nativeLib.listDevices();
 		t = (EditText) findViewById(R.id.editText1);
 		t.setText(usb_devices);
 
 	}
 
-
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.activity_main, menu);
 		return true;
 	}
-	
+
 }
