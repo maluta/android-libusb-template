@@ -2,10 +2,21 @@ Android APK sample with libUSB integrated.
 
 This program lists 'vendor' and 'product' IDs from USB interface
 
-To build JNI:
+* To build JNI:
 $ANDROID_NDK_PATH/ndk-build
 
-O develop import your file to Eclipse to run
+* To develop import your file to Eclipse to run:
 File -> Import -> Existing Android Code Into Workspace
+
+* Only compile (don't forget to build JNI):
+
+$ android update project -p .
+$ ant debug
+$ adb install bin/MainActivity-debug.apk
+
+* Uninstall
+
+$ adb uninstall io.github.maluta.libusbproject
+
 
 This was tested on Android 2.3.x
